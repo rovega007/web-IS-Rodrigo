@@ -5,46 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso de Programación Web</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles.css"> <!-- vincula archivo para estilos de CSS -->
 </head>
 <body>
-    <h1>
+    <h1 id="titulo">
         Reseña de la película "John Wick Chapter 3: Parabellum"
     </h1>
 
-    <p>
-        <em>
-            <strong>
-                Índice:
-            </strong>
-        </em>
-    </p>
-    <a href="#sinopsis">Sinopsis</a>
-    <br>
-    <a href="#reparto">Reparto / Elenco</a>
-    <br>
-    <a href="#informacion">Información General</a>
-    <br>
-    <a href="#trailer">Trailer</a>
-    <br>
-    <a href="#recomendaciones">Recomendaciones</a>
+    <div id="indice">
+        <p>
+            <i> <!-- italics -->
+                <b> <!-- negrita -->
+                    Índice:
+                </b>
+            </i>
+        </p>
+        <ul>
+            <li> 
+                <a href="#sinopsis">Sinopsis</a> 
+            </li>
+            <li> 
+                <a href="#reparto">Reparto / Elenco</a>
+            </li>
+            <li> 
+                <a href="#informacion">Información General</a> </li>
+            <li> 
+                <a href="#trailer">Trailer</a> 
+            </li>
 
-
-    <p id="sinopsis"> Sinopsis: </p>
-    <p> En esta tercera entrega de la franquicia de acción cargada de adrenalina, el superasesino John Wick (Keanu Reeves) regresa con un precio de 14 millones de dólares por su cabeza y un ejército de asesinos cazarrecompensas tras su pista. <br /> <br />Después de matar a un miembro del siniestro gremio internacional de asesinos, la Alta Mesa, John Wick ha sido excomulgado y los asesinos más despiadados del mundo lo aguardan a la vuelta de cada esquina. </p>
+            <li> <a href="#recomendaciones">Recomendaciones</a> </li>
+        </ul>
+    </div>
     
-    <img src="john wick parabellum.jpg" alt="John Wick 3: Parabellum" width="400px" height="600px"/>
 
-    <div>
+    <div id="sinopsis">
+        <p> Sinopsis: </p>
+    <p> En esta tercera entrega de la franquicia de acción cargada de adrenalina, el superasesino John Wick (Keanu Reeves) regresa con un precio de 14 millones de dólares por su cabeza y un ejército de asesinos cazarrecompensas tras su pista. <br /> <br />Después de matar a un miembro del siniestro gremio internacional de asesinos, la Alta Mesa, John Wick ha sido excomulgado y los asesinos más despiadados del mundo lo aguardan a la vuelta de cada esquina. </p>
+    </div>
+    
+    
+    <img class="img" src="john wick parabellum.jpg" alt="John Wick 3: Parabellum" width="400px" height="600px"/>
+
+    <div id="reparto" >
         <h2>
             <em>
-                <strong id="reparto">
+                <strong>
                     Reparto / Elenco
                 </strong>
             </em>
         </h2>
 
-        <ul>
+        <ul id="repartolista">
             <li>Keanu Reeves</li>
             <li>Halle Berry</li>
             <li>Mark Dacascos</li>
@@ -64,7 +75,7 @@
             </em>
         </h2>
 
-        <table>
+        <table id="tabla">
             <thead>
                 <th>Información</th>
                 <th>Ejemplo</th>
@@ -86,6 +97,7 @@
                 <td>Ridley Scott</td>
             </tr>
         </table>
+        <!-- th  y td tengan misma cantidad, aqui seria 3  y 3, cantidad de headers igual a cantidad de columnas usando-->
 
         <div>
             <h3>
@@ -132,6 +144,9 @@
     </style>
     
 -->
+<footer>
+    Rodrigo Vega - Taller Web &copy; 2022
+</footer>
 
 </body>
 </html>

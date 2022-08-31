@@ -1,13 +1,60 @@
-div {
-    background-color: aqua;
-    height: 200px;
-    width: 200px;
-    margin: 10px 20px 30px 40px; 
-    border: 10px rgb(47, 255, 71);
-    border-width: 20px;
-    border-color: cadetblue;
-    display: inline-block;
-    padding: 10px 20px;
-    /* primer valor son margen de arriba y abajo, dos valores izq y der, 3 valores arriba, der, abajo, 4 toma los 4 lados /*
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    text-align: center;
+    background-color: #ddd;
 }
 
+.img{
+    width: 200px;
+    height: auto;
+}
+
+
+#titulo{
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    border-top-color: black 4px;
+}
+
+#indice{
+    border-color: gray 2px;
+    border-radius: 10px;
+    padding: 10px 25px 10px 25px; /* Padding vertical de 10px, y horizontal de 25px. */
+    margin-bottom: 20px;
+
+    /*
+    padding: 25px 50px 75px 100px;
+    top padding is 25px
+    right padding is 50px
+    bottom padding is 75px
+    left padding is 100px
+    */
+}
+
+#sinopsis{
+    text-align: justify;
+    font-size: 20px;
+}
+
+#repartolista{
+    list-style-type: square;
+}
+
+#tabla{
+text-align: center;
+border-style: dotted;
+border: black 10px;
+border-collapse: collapse;
+}
+
+th, td{ /* header y columna de tabla */
+    border: solid black 1px;
+    padding: 10px;
+    margin: 1px solid black;
+}
+
+td:first-child{
+    font-weight: bold; /* texto primera columna negritas */
+}
