@@ -1,0 +1,22 @@
+div {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    margin: 10px 20px 30px 40px; 
+    border: 10px rgb(47, 255, 71);
+    border-width: 20px;
+    border-color: cadetblue;
+    display: inline-block;
+    padding: 10px 20px;
+    /* primer valor son margen de arriba y abajo, dos valores izq y der, 3 valores arriba, der, abajo, 4 toma los 4 lados /*
+}
+
+.contenedor{  /* clase  */
+    background-color: blue;
+    height: 200px;
+
+}
+
+#LOREM{ /* id  */
+    background-color: rgb(255, 0, 230);
+}
