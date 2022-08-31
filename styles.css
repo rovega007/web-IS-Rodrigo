@@ -11,12 +11,3 @@ div {
     /* primer valor son margen de arriba y abajo, dos valores izq y der, 3 valores arriba, der, abajo, 4 toma los 4 lados /*
 }
 
-.contenedor{  /* clase  */
-    background-color: blue;
-    height: 200px;
-
-}
-
-#LOREM{ /* id  */
-    background-color: rgb(255, 0, 230);
-}
