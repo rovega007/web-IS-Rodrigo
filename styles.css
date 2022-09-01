@@ -10,16 +10,15 @@ body{
     height: auto;
 }
 
-
 #titulo{
     font-size: 36px;
     width: 100%;
     text-align: center;
-    border-top-color: black 4px;
+    border-bottom: solid black 4px;
 }
 
 #indice{
-    border-color: gray 2px;
+    border: solid gray 2px; /*si no digo que estilo tiene no se ve*/
     border-radius: 10px;
     padding: 10px 25px 10px 25px; /* Padding vertical de 10px, y horizontal de 25px. */
     margin-bottom: 20px;
@@ -47,6 +46,12 @@ text-align: center;
 border-style: dotted;
 border: black 10px;
 border-collapse: collapse;
+
+/*Para centrar tabla*/
+margin-bottom: 0;
+margin-top: 0;
+margin-left: auto;
+margin-right: auto;
 }
 
 th, td{ /* header y columna de tabla */
