@@ -1,0 +1,40 @@
+.contenedor{
+    width: 100%;
+    min-height: 100vh; /*view height tamaño de pantalla*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    text-transform: uppercase; /*hacer mayus*/
+    font-weight: 500;
+    font-size: 1.2rem; /* 1rem = 16px */
+    margin-bottom: 2rem;
+}
+
+.boton-contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5rem 1rem; /*superior inferior 0.5rem der izq 1 rem*/
+    border-radius: 5px;
+}
+
+.formulario-contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 28rem;
+    min-height: 30rem;
+    padding: 2rem; /* tanto arriba der izq abajo*/
+    border: 1px solid gray; /*tamaño color tipo*/
+}
